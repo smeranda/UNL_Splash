@@ -133,9 +133,10 @@
                                 <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
                                     <div class="unltoday sidebar">
                                         <div class="inner">
-                                            <h2>
-                                                Baughman, Johnson win national Client Counseling Competition
-                                            </h2>
+                                            <header>
+                                                <h2>Headlines from UNL Today</h2>
+                                                <h3>Baughman, Johnson win national Client Counseling Competition</h3>
+                                            </header>
                                             <ul>
                                                 <li>
                                                     'Little Me Can Live a Big Life' book talk with author Allman
