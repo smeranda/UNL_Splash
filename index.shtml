@@ -80,9 +80,9 @@
                                 <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
                                     <div class="unltoday sidebar">
                                         <div class="inner">
-                                            <h3>
+                                            <h2>
                                                 Baughman, Johnson win national Client Counseling Competition
-                                            </h3>
+                                            </h2>
                                             <ul>
                                                 <li>
                                                     'Little Me Can Live a Big Life' book talk with author Allman
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="assert">
-                    <h4>Academic Colleges</h4>
+                    <h2>Academic Colleges</h2>
                     <ul>
                         <li>
                             <div class="moreOptions">
@@ -210,7 +210,7 @@
                 </div>
                 <div class="band">
                     <div class="grid3 callout first">
-                        <h3 class="ribbon">Go Big</h3>
+                        <h2 class="ribbon">Go Big</h2>
                         <ul>
                             <li>
                                 <a href="http://admissions.unl.edu/">Apply</a>
@@ -283,7 +283,7 @@
                     </div>
                 </div>
                 <div class="grid8 first remainder">
-                    <h5>Affiliates</h5>
+                    <h2>Affiliates</h2>
                     <ul> 
                         <li><a href="http://www.huskeralum.org/" title="Alumni">Alumni</a></li> 
                         <li><a href="http://www.huskers.com/" title="Huskers">Husker Athletics</a></li> 
