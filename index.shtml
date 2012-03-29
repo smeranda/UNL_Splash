@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="ie iem7"><![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7) ]><html class="ie" lang="en"><![endif]-->
+<!--[if !(IEMobile) | !(IE)]><!--><html lang="en"><!-- InstanceBegin template="/Templates/fixed.dwt" codeOutsideHTMLIsLocked="false" --><!--<![endif]-->
+<head>
+<!--#include virtual="/wdn/templates_3.1/includes/metanfavico.html" -->
+<!--
+    Membership and regular participation in the UNL Web Developer Network
+    is required to use the UNL templates. Visit the WDN site at 
+    http://wdn.unl.edu/. Click the WDN Registry link to log in and
+    register your unl.edu site.
+    All UNL template code is the property of the UNL Web Developer Network.
+    The code seen in a source code view is not, and may not be used as, a 
+    template. You may not use this code, a reverse-engineered version of 
+    this code, or its associated visual presentation in whole or in part to
+    create a derivative work.
+    This message may not be removed from any pages based on the UNL site template.
+    
+    $Id: fixed.dwt | 1e98ba6f3cd3310802e61545987e6582d0abac6f | Wed Feb 15 11:42:58 2012 -0600 | Kevin Abel  $
+-->
+<!--#include virtual="/wdn/templates_3.1/includes/scriptsandstyles.html" -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>The University of Nebraska&ndash;Lincoln | Go Big Red | Undergraduate, Graduate and Law Degrees from a Research 1, #B1G University</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!--#include virtual="sharedcode/localSiteLinks.html" -->
+
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="class" type="text" value="fixed" -->
+</head>
+<body class="fixed">
+    <nav class="skipnav">
+        <a class="skipnav" href="#maincontent">Skip Navigation</a>
+    </nav>
+    <div id="wdn_wrapper">
+        <header id="header" role="banner">
+            <a id="logo" href="http://www.unl.edu/" title="UNL website">UNL</a>
+            <span id="wdn_institution_title">University of Nebraska&ndash;Lincoln</span>
+            <span id="wdn_site_title"><!-- InstanceBeginEditable name="titlegraphic" -->
+			The University of Nebraska&ndash;Lincoln
+				
+				<!-- InstanceEndEditable --></span>
+            <!--#include virtual="/wdn/templates_3.1/includes/idm.html" -->
+            <!--#include virtual="/wdn/templates_3.1/includes/wdnTools.html" -->
+        </header>
+        <div id="wdn_navigation_bar">
+            <nav id="breadcrumbs">
+                <!-- WDN: see glossary item 'breadcrumbs' -->
+                <h3 class="wdn_list_descriptor hidden">Breadcrumbs</h3>
+                <!-- InstanceBeginEditable name="breadcrumbs" -->
+			<!-- WDN: see glossary item 'breadcrumbs' -->
+			<ul>
+				<li class="first"><a href="http://www.unl.edu/">UNL</a></li>
+			</ul>
+			<!-- InstanceEndEditable -->
+            </nav>
+            <div id="wdn_navigation_wrapper">
+                <nav id="navigation" role="navigation">
+                    <h3 class="wdn_list_descriptor hidden">Navigation</h3>
+                    <!-- InstanceBeginEditable name="navlinks" -->
+				<!--#include virtual="sharedcode/navigation.html" -->
+				<!-- InstanceEndEditable -->
+                </nav>
+            </div>
+        </div>
+        <div id="wdn_content_wrapper">
+            <div id="pagetitle">
+                <!-- InstanceBeginEditable name="pagetitle" --><h1 class="hidden">Welcome to the University of Nebraska&ndash;Lincoln</h1> <!-- InstanceEndEditable -->
+            </div>
+            <div id="maincontent" role="main">
+                <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
+                <!-- InstanceBeginEditable name="maincontentarea" -->
+                <div class="wdn_carousel">
+                    <div class="currentScroller">
+                      <ul class="scrollerItems">
+                          
+                          <li>
+                            <img src="/ucomm/splash/images/promo_unltoday.jpg" alt="UNL Today lead story image" height="310" width="960" />
+                               <div class="unltoday sidebar">
+                                <div class="inner">
+                                    <h3><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">Baughman, Johnson win national Client Counseling Competition</a></h3>
+    
+        <ul>
+            <li><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">'Little Me Can Live a Big Life' book talk with author Allman</a></li>
+            <li><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">Symposium examines landmark 1962 legislation</a></li>
+        </ul>
+                                    <p style="margin-left:24px;"><em>These stories and more on <a href="/ucomm/unltoday/" title="go to UNL Today">UNL Today.</a></em></p>
+                               </div>
+                               </div>
+                          </li>
+                      </ul>
+                    </div>
+                    <div class="sliderControl left">
+                        <a href="#">Left</a>
+                    </div>
+                    <div class="sliderControl right">
+                        <a href="#">Right</a>
+                    </div>
+                </div>
+                <div class="assert">
+                    <h4>Academic Colleges</h4>
+                    <ul>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Agricultural Sciences and Natural Resources recruitment photo" src="/ucomm/splash/images/collegeCASNR.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Agricultural+Sciences+%26+Natural+Resources/majors"><span>Agricultural Sciences &amp; Natural Resources</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/200" title="View contact information for the College of Agricultural Sciences &amp; Natural Resources"><span>Agricultural Sciences &amp; Natural Resources</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://casnr.unl.edu/" title="College of Agricultural Sciences and Natural Resources">Agricultural Sciences &amp; Natural Resources</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Architecture recruitment photo" src="/ucomm/splash/images/collegeARCH.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Architecture/majors"><span>Architecture</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/55" title="View contact information for the College of Architecture"><span>Architecture</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://archweb.unl.edu/" title="College of Architecture">Architecture</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Arts &amp; Sciences recruitment photo" src="/ucomm/splash/images/collegeAS.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Arts+%26+Sciences/majors"><span>Arts &amp; Sciences</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/85" title="View contact information for the College of Arts &amp; Sciences"><span>Arts &amp; Sciences</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://cas.unl.edu/" title="College of Arts and Sciences">Arts &amp; Sciences</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Business Administration recruitment photo" src="/ucomm/splash/images/collegeCBA.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Business+Administration/majors"><span>Business Administration</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/60" title="View contact information for the College of Business Administration"><span>Business Administration</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://cba.unl.edu/" title="College of Business Administration">Business Administration</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Education &amp; Human Sciences recruitment photo" src="/ucomm/splash/images/collegeEHS.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Education+%26+Human+Sciences/majors"><span>Education &amp; Human Sciences</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/144" title="View contact information for the College of Education &amp; Human Sciences"><span>Education &amp; Human Sciences</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://cehs.unl.edu/" title="College of Education &amp; Human Sciences">Education&nbsp;&amp;&nbsp;Human&nbsp;Sciences</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions left">
+                                <img alt="College of Engineering recruitment photo" src="/ucomm/splash/images/collegeENG.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Engineering/majors"><span>Engineering</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/121" title="View contact information for the College of Engineering"><span>Engineering</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://engineering.unl.edu/" title="College of Engineering">Engineering</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Journalism &amp; Mass Communications recruitment photo" src="/ucomm/splash/images/collegeJMC.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Journalism+%26+Mass+Communications/majors"><span>Journalism</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/139" title="View contact information for the College of Journalism"><span>Journalism</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://journalism.unl.edu/" title="College of Journalism and Mass Communications">Journalism &amp; Mass Communications</a>
+                        </li>
+                        <li class="outlier">
+                            <div class="moreOptions">
+                                <img alt="College of Fine &amp; Performing Arts recruitment photo" src="/ucomm/splash/images/collegeFPA.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://bulletin.unl.edu/undergraduate/college/Fine+%26+Performing+Arts/majors"><span>Fine &amp; Performing Arts</span> Undergrad Majors</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/majors.shtml">Grad Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/70" title="View contact information for the College of Fine &amp; Performing Arts"><span>Fine &amp; Performing Arts</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://www.unl.edu/finearts/" title="Hixson-Lied College of Fine and Performing Arts"><span>Hixson-Lied College of</span>Fine &amp; Performing Arts</a>
+                        </li>
+                        <li>
+                            <div class="moreOptions">
+                                <img alt="College of Law recruitment photo" src="/ucomm/splash/images/collegeLAW.jpg" height="58" width="88" />
+                                <ul>
+                                    <li><a href="http://law.unl.edu/academics/degree_programs.shtml" title="View degree program information for the College of Law"><span>Law</span> Degree Programs</a></li>
+                                    <li><a href="http://directory.unl.edu/departments/75" title="View contact information for the College of Law"><span>Law</span> Directory</a></li>
+                                </ul>
+                            </div>
+                            <a href="http://law.unl.edu/" title="Nebraska College of Law">Law</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="band">
+                    <div class="grid3 callout first">
+                        <h3 class="ribbon">Go Big</h3>
+                        <ul>
+                            <li>
+                                <a href="http://admissions.unl.edu/">Apply</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://admissions.unl.edu/apply/">Undergrad</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://law.unl.edu/prospective/apply.shtml">Law</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="http://visit.unl.edu/">Visit</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://admissions.unl.edu/daily_visit/index.aspx">Schedule a Visit</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://maps.unl.edu/">Maps</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://myred.unl.edu/">MyRED</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://my.unl.edu/">My.UNL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.huskeralum.org/">Alumni</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://nufoundation.org/">Foundation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="stories">
+                        <div class="article">
+                        	<a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London"><img src="http://newsroom.unl.edu/announce/file19370.jpg" alt="Zach Smith" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London">Smith taking Marshall Scholarship to London</a></h4>
+                        
+                        	<p>May grad will pursue master&rsquo;s degrees in Middle East politics and Islamic societies and culture</p>
+                        </div>
+                        <div class="article">
+                        	<a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt"><img src="http://newsroom.unl.edu/announce/file19339.jpg" alt="Steven Kaiser (Photo by Cynthia M. Kaiser)" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt">Kaiser, &rsquo;10, helps develop low-sodium salt</a></h4>
+                        
+                        	<p>Steven Kaiser develops flavors and seasonings for ConAgra Foods</p>
+                        </div>
+                        <div class="article">
+                        	<a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation"><img src="http://newsroom.unl.edu/announce/file19340.jpg" alt="Susan Swearer" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation">Swearer helps launch Lady Gaga's Born This Way Foundation</a></h4>
+                        
+                        	<p>Expert&rsquo;s bullying research filling gaps between research, practice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid8 first remainder">
+                    <h5>Affiliates</h5>
+                    <ul> 
+                        <li><a href="http://www.huskeralum.org/" title="Alumni">Alumni</a></li> 
+                        <li><a href="http://www.huskers.com/" title="Huskers">Husker Athletics</a></li> 
+                        <li><a href="http://www.liedcenter.org/" title="Lied Center">Lied Center</a></li> 
+                        <li><a href="http://www.netnebraska.org/television/" title="NET">NET</a></li> 
+                        <li><a href="http://www.quiltstudy.org/" title="International Quilt Study Center &amp; Museum">Quilt Study Center</a></li> 
+                        <li><a href="http://theross.org/" title="Ross Theatre">The Ross</a></li> 
+                        <li><a href="http://www.sheldonartgallery.org/" title="Sheldon Gallery">Sheldon Museum of Art</a></li> 
+                        <li><a href="http://www-museum.unl.edu/" title="State Museum">State Museum</a></li> 
+                        <li><a href="http://www.bkstr.com/Home/10001-10287-1?demoKey=d" title="University Bookstore">UNL Bookstore</a></li> 
+                        <li><a href="http://nebraskapress.unl.edu/" title="UofN Press">U of N Press</a></li> 
+                        <li><a href="http://www.nufoundation.org/" title="NU Foundation">NU Foundation</a></li> 
+                        <li><a href="http://www.nebraska.edu/" title="NU System">NU System</a></li> 
+                        <li><a href="http://parentsassoc.unl.edu/" title="UNL Parents Association">Parents Association</a></li> 
+                        <li><a href="http://emeriti.unl.edu/" title="UNL Emeriti Association">UNL Emeriti</a></li> 
+                    </ul>
+                </div>
+                <div class="grid4" id="outposts">
+                    <ul>
+                        <li class="facebook"><a href="http://www.facebook.com/unl.edu">Facebook</a></li>
+                        <li class="twitter"><a href="http://twitter.com/unlnews/">Twitter</a></li>
+                        <li class="youtube"><a href="http://www.youtube.com/unl">YouTube</a></li>
+                        <li class="itunes"><a href="http://itunes.unl.edu/admin/?anonymous=true">iTunes</a></li>
+                        <li class="flickr"><a href="http://www.flickr.com/photos/universityofnebraska/">Flickr</a></li>
+                    </ul>
+                </div>
+                <div class="grid12 first" id="unl_ad">
+					<a href="http://marketplace.unl.edu/dairystore/?utm_campaign=marketplace&amp;utm_medium=unlSplash&amp;utm_source=internal&amp;utm_content=&amp;utm_term=dairystore">
+    					<div class="mp_dairy">
+        					<span class="headline">Order online. Anytime.</span>
+        					<img class="logo" src="/ucomm/splash/images/logo_ds.png" alt="Dairy Store Logo" />
+				        </div>
+    				    <div class="mp_footer">
+    				        <span>UNL Marketplace</span>
+    				    </div>
+    				</a>
+    			</div>
+                <!-- InstanceEndEditable -->
+                <div class="clear"></div>
+                <!--#include virtual="/wdn/templates_3.1/includes/noscript.html" -->
+                <!--THIS IS THE END OF THE MAIN CONTENT AREA.-->
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="footer_floater"></div>
+            <div class="footer_col" id="wdn_footer_feedback">
+                <!--#include virtual="/wdn/templates_3.1/includes/feedback.html" -->
+            </div>
+            <div class="footer_col" id="wdn_footer_related">
+                <!-- InstanceBeginEditable name="leftcollinks" -->
+				<!-- WDN: see glossary item 'sidebar links' -->
+				<!--#include virtual="sharedcode/relatedLinks.html" -->
+				<!-- InstanceEndEditable --></div>
+            <div class="footer_col" id="wdn_footer_contact">
+                <!-- InstanceBeginEditable name="contactinfo" -->
+                <!--#include virtual="sharedcode/footerContactInfo.html" -->
+            <!-- InstanceEndEditable --></div>
+            <div class="footer_col" id="wdn_footer_share">
+                <!--#include virtual="/wdn/templates_3.1/includes/socialmediashare.html" -->
+            </div>
+            <!-- InstanceBeginEditable name="optionalfooter" -->
+		<!-- InstanceEndEditable -->
+            <div id="wdn_copyright">
+                <div>
+                    <!-- InstanceBeginEditable name="footercontent" -->
+			<!--#include virtual="sharedcode/footer.html" -->
+			<!-- InstanceEndEditable -->
+                    <!--#include virtual="/wdn/templates_3.1/includes/wdn.html" -->
+                </div>
+                <!--#include virtual="/wdn/templates_3.1/includes/logos.html" -->
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- InstanceEnd --></html>
