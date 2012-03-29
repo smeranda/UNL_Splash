@@ -73,6 +73,59 @@
             <div id="maincontent" role="main">
                 <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
                 <!-- InstanceBeginEditable name="maincontentarea" -->
+                <section>
+                    <header>
+                        <h2>Quick Resources</h2>
+                        <h3>Go Big Red</h3>
+                    </header>
+                    <ul>
+                        <li id="qr_apply">
+                            <a href="http://admissions.unl.edu/apply">Apply</a>
+                            <ul>
+                                <li><a href="http://admissions.unl.edu/apply/">Undergrad</a></li>
+                                <li><a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a></li>
+                                <li><a href="http://law.unl.edu/prospective/apply.shtml">Law</a></li>
+                            </ul>
+                        </li>
+                        <li id="qr_visit">
+                            <a href="http://visit.unl.edu/">Visit</a>
+                            <ul>
+                                <li><a href="http://admissions.unl.edu/daily_visit/">Schedule a Visit</a></li>
+                                <li><a href="http://maps.unl.edu/">Maps</a></li>
+                            </ul>
+                        </li>
+                        <li id="qr_find">
+                            Find
+                            <ul>
+                                <li><a href="http://directory.unl.edu/">Directory</a></li> 
+                                <li><a href="http://events.unl.edu/">Events</a></li>
+                                <li><a href="http://maps.unl.edu/">Maps</a></li>
+                            </ul>
+                        </li>
+                        <li id="qr_news">
+                            <a href="http://newsroom.unl.edu/">News</a>
+                            <ul>
+                                <li><a href="http://www.huskers.com/">Huskers</a></li>
+                            </ul>
+                        </li>
+                        <li id="qr_resources">
+                            <a href="http://admissions.unl.edu/visit/">Student Resources</a>
+                            <ul>
+                                <li><a href="http://myred.unl.edu/">MyRED</a></li>
+                                <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
+                                <li><a href="http://my.unl.edu/">My.UNL</a></li>
+                                <li><a href="http://library.unl.edu/">Libraries</a></li>
+                            </ul>
+                        </li>
+                        <li id="qr_support">
+                            <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
+                            <ul>
+                                <li><a href="http://www.huskeralum.org/">Alumni</a></li>
+                                <li><a href="http://nufoundation.org/">Foundation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
                 <div class="wdn_carousel">
                     <div class="currentScroller">
                         <ul class="scrollerItems">
@@ -209,66 +262,11 @@
                     </ul>
                 </div>
                 <div class="band">
-                    <div class="grid3 callout first">
-                        <h2 class="ribbon">Go Big</h2>
-                        <ul>
-                            <li>
-                                <a href="http://admissions.unl.edu/">Apply</a>
-                                <ul>
-                                    <li>
-                                        <a href="http://admissions.unl.edu/apply/">Undergrad</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://law.unl.edu/prospective/apply.shtml">Law</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="http://visit.unl.edu/">Visit</a>
-                                <ul>
-                                    <li>
-                                        <a href="http://admissions.unl.edu/daily_visit/index.aspx">Schedule a Visit</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://maps.unl.edu/">Maps</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
-                                <ul>
-                                    <li>
-                                        <a href="http://myred.unl.edu/">MyRED</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://my.unl.edu/">My.UNL</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
-                                <ul>
-                                    <li>
-                                        <a href="http://www.huskeralum.org/">Alumni</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://nufoundation.org/">Foundation</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                        <div class="stories">
+                    <div class="stories">
                         <div class="article">
                         	<a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London"><img src="http://newsroom.unl.edu/announce/file19370.jpg" alt="Zach Smith" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London">Smith taking Marshall Scholarship to London</a></h4>
                         
-                        	<p>May grad will pursue master&rsquo;s degrees in Middle East politics and Islamic societies and culture</p>
+                        	<p>May grad will pursue master's degrees in Middle East politics and Islamic societies and culture</p>
                         </div>
                         <div class="article">
                         	<a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt"><img src="http://newsroom.unl.edu/announce/file19339.jpg" alt="Steven Kaiser (Photo by Cynthia M. Kaiser)" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt">Kaiser, &rsquo;10, helps develop low-sodium salt</a></h4>
@@ -278,7 +276,7 @@
                         <div class="article">
                         	<a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation"><img src="http://newsroom.unl.edu/announce/file19340.jpg" alt="Susan Swearer" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation">Swearer helps launch Lady Gaga's Born This Way Foundation</a></h4>
                         
-                        	<p>Expert&rsquo;s bullying research filling gaps between research, practice</p>
+                        	<p>Expert's bullying research filling gaps between research, practice</p>
                         </div>
                     </div>
                 </div>
