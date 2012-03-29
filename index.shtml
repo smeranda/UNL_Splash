@@ -75,23 +75,28 @@
                 <!-- InstanceBeginEditable name="maincontentarea" -->
                 <div class="wdn_carousel">
                     <div class="currentScroller">
-                      <ul class="scrollerItems">
-                          
-                          <li>
-                            <img src="/ucomm/splash/images/promo_unltoday.jpg" alt="UNL Today lead story image" height="310" width="960" />
-                               <div class="unltoday sidebar">
-                                <div class="inner">
-                                    <h3><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">Baughman, Johnson win national Client Counseling Competition</a></h3>
-    
-        <ul>
-            <li><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">'Little Me Can Live a Big Life' book talk with author Allman</a></li>
-            <li><a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">Symposium examines landmark 1962 legislation</a></li>
-        </ul>
-                                    <p style="margin-left:24px;"><em>These stories and more on <a href="/ucomm/unltoday/" title="go to UNL Today">UNL Today.</a></em></p>
-                               </div>
-                               </div>
-                          </li>
-                      </ul>
+                        <ul class="scrollerItems">
+                            <li>
+                                <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
+                                    <div class="unltoday sidebar">
+                                        <div class="inner">
+                                            <h3>
+                                                Baughman, Johnson win national Client Counseling Competition
+                                            </h3>
+                                            <ul>
+                                                <li>
+                                                    'Little Me Can Live a Big Life' book talk with author Allman
+                                                </li>
+                                                <li>
+                                                    Symposium examines landmark 1962 legislation
+                                                </li>
+                                            </ul>
+                                            <p>These stories and more on UNL Today.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="sliderControl left">
                         <a href="#">Left</a>
