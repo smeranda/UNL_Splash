@@ -78,53 +78,55 @@
                         <h2>Quick Resources</h2>
                         <h3>Go Big Red</h3>
                     </header>
-                    <ul>
-                        <li id="qr_apply">
-                            <a href="http://admissions.unl.edu/apply">Apply</a>
-                            <ul>
-                                <li><a href="http://admissions.unl.edu/apply/">Undergrad</a></li>
-                                <li><a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a></li>
-                                <li><a href="http://law.unl.edu/prospective/apply.shtml">Law</a></li>
-                            </ul>
-                        </li>
-                        <li id="qr_visit">
-                            <a href="http://visit.unl.edu/">Visit</a>
-                            <ul>
-                                <li><a href="http://admissions.unl.edu/daily_visit/">Schedule a Visit</a></li>
-                                <li><a href="http://maps.unl.edu/">Maps</a></li>
-                            </ul>
-                        </li>
-                        <li id="qr_find">
-                            Find
-                            <ul>
-                                <li><a href="http://directory.unl.edu/">Directory</a></li> 
-                                <li><a href="http://events.unl.edu/">Events</a></li>
-                                <li><a href="http://maps.unl.edu/">Maps</a></li>
-                            </ul>
-                        </li>
-                        <li id="qr_news">
-                            <a href="http://newsroom.unl.edu/">News</a>
-                            <ul>
-                                <li><a href="http://www.huskers.com/">Huskers</a></li>
-                            </ul>
-                        </li>
-                        <li id="qr_resources">
-                            <a href="http://admissions.unl.edu/visit/">Student Resources</a>
-                            <ul>
-                                <li><a href="http://myred.unl.edu/">MyRED</a></li>
-                                <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
-                                <li><a href="http://my.unl.edu/">My.UNL</a></li>
-                                <li><a href="http://library.unl.edu/">Libraries</a></li>
-                            </ul>
-                        </li>
-                        <li id="qr_support">
-                            <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
-                            <ul>
-                                <li><a href="http://www.huskeralum.org/">Alumni</a></li>
-                                <li><a href="http://nufoundation.org/">Foundation</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li id="qr_apply">
+                                <a href="http://admissions.unl.edu/apply">Apply</a>
+                                <ul>
+                                    <li><a href="http://admissions.unl.edu/apply/">Undergrad</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a></li>
+                                    <li><a href="http://law.unl.edu/prospective/apply.shtml">Law</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_visit">
+                                <a href="http://visit.unl.edu/">Visit</a>
+                                <ul>
+                                    <li><a href="http://admissions.unl.edu/daily_visit/">Schedule a Visit</a></li>
+                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_find">
+                                Find
+                                <ul>
+                                    <li><a href="http://directory.unl.edu/">Directory</a></li> 
+                                    <li><a href="http://events.unl.edu/">Events</a></li>
+                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_news">
+                                <a href="http://newsroom.unl.edu/">News</a>
+                                <ul>
+                                    <li><a href="http://www.huskers.com/">Huskers</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_resources">
+                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
+                                <ul>
+                                    <li><a href="http://myred.unl.edu/">MyRED</a></li>
+                                    <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
+                                    <li><a href="http://my.unl.edu/">My.UNL</a></li>
+                                    <li><a href="http://library.unl.edu/">Libraries</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_support">
+                                <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
+                                <ul>
+                                    <li><a href="http://www.huskeralum.org/">Alumni</a></li>
+                                    <li><a href="http://nufoundation.org/">Foundation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
                 </section>
                 <div class="wdn_carousel">
                     <div class="currentScroller">
