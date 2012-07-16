@@ -24,6 +24,7 @@
 <!--#include virtual="/wdn/templates_3.1/includes/scriptsandstyles.html" -->
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>The University of Nebraska&ndash;Lincoln | Go Big Red | Undergraduate, Graduate and Law Degrees from a Research 1, #B1G University</title>
+<link rel="stylesheet" href="styles/css/default.css" />
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!--#include virtual="sharedcode/localSiteLinks.html" -->
@@ -39,10 +40,11 @@
         <header id="header" role="banner">
             <a id="logo" href="http://www.unl.edu/" title="UNL website">UNL</a>
             <span id="wdn_institution_title">University of Nebraska&ndash;Lincoln</span>
-            <span id="wdn_site_title"><!-- InstanceBeginEditable name="titlegraphic" -->
-			The University of Nebraska&ndash;Lincoln
-				
-				<!-- InstanceEndEditable --></span>
+            <span id="wdn_site_title">
+                <!-- InstanceBeginEditable name="titlegraphic" -->
+			    <abbr title="The University of Nebraska&ndash;Lincoln">UNL</abbr>
+				<!-- InstanceEndEditable -->
+			</span>
             <!--#include virtual="/wdn/templates_3.1/includes/idm.html" -->
             <!--#include virtual="/wdn/templates_3.1/includes/wdnTools.html" -->
         </header>
@@ -73,67 +75,13 @@
             <div id="maincontent" role="main">
                 <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
                 <!-- InstanceBeginEditable name="maincontentarea" -->
-                <section>
-                    <header>
-                        <h2>Quick Resources</h2>
-                        <h3>Go Big Red</h3>
-                    </header>
-                    <nav>
-                        <ul>
-                            <li id="qr_apply">
-                                <a href="http://admissions.unl.edu/apply">Apply</a>
-                                <ul>
-                                    <li><a href="http://admissions.unl.edu/apply/">Undergrad</a></li>
-                                    <li><a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a></li>
-                                    <li><a href="http://law.unl.edu/prospective/apply.shtml">Law</a></li>
-                                </ul>
-                            </li>
-                            <li id="qr_visit">
-                                <a href="http://visit.unl.edu/">Visit</a>
-                                <ul>
-                                    <li><a href="http://admissions.unl.edu/daily_visit/">Schedule a Visit</a></li>
-                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
-                                </ul>
-                            </li>
-                            <li id="qr_find">
-                                Find
-                                <ul>
-                                    <li><a href="http://directory.unl.edu/">Directory</a></li> 
-                                    <li><a href="http://events.unl.edu/">Events</a></li>
-                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
-                                </ul>
-                            </li>
-                            <li id="qr_news">
-                                <a href="http://newsroom.unl.edu/">News</a>
-                                <ul>
-                                    <li><a href="http://www.huskers.com/">Huskers</a></li>
-                                </ul>
-                            </li>
-                            <li id="qr_resources">
-                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
-                                <ul>
-                                    <li><a href="http://myred.unl.edu/">MyRED</a></li>
-                                    <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
-                                    <li><a href="http://my.unl.edu/">My.UNL</a></li>
-                                    <li><a href="http://library.unl.edu/">Libraries</a></li>
-                                </ul>
-                            </li>
-                            <li id="qr_support">
-                                <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
-                                <ul>
-                                    <li><a href="http://www.huskeralum.org/">Alumni</a></li>
-                                    <li><a href="http://nufoundation.org/">Foundation</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </section>
                 <div class="wdn_carousel">
                     <div class="currentScroller">
                         <ul class="scrollerItems">
                             <li>
                                 <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
                                     <section class="unltoday sidebar">
+                                        <img src="images/promo_unltoday.jpg" alt="Image holder for now">
                                         <div class="inner">
                                             <header>
                                                 <h2>Headlines from UNL Today</h2>
@@ -161,7 +109,64 @@
                         <a href="#">Right</a>
                     </div>
                 </div>
-                <section class="assert">
+                <section id="quickResources">
+                    <header>
+                        <h2>Quick Resources</h2>
+                        <h3>Go Big Red</h3>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li id="qr_apply">
+                                <a href="http://admissions.unl.edu/apply">Apply</a>
+                                <ul>
+                                    <li><a href="http://admissions.unl.edu/apply/">Undergrad</a></li>
+                                    <li><a href="http://www.unl.edu/gradstudies/prospective/steps/">Grad</a></li>
+                                    <li><a href="http://law.unl.edu/prospective/apply.shtml">Law</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_visit">
+                                <a href="http://visit.unl.edu/">Visit</a>
+                                <ul>
+                                    <li><a href="http://admissions.unl.edu/daily_visit/">Schedule a Visit</a></li>
+                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_find">
+                                <a href="http://www1.unl.edu/search">Find</a>
+                                <ul>
+                                    <li><a href="http://directory.unl.edu/">Directory</a></li> 
+                                    <li><a href="http://events.unl.edu/">Events</a></li>
+                                    <li><a href="http://maps.unl.edu/">Maps</a></li>
+                                </ul>
+                            </li>
+                            <!--
+                            <li id="qr_news">
+                                <a href="http://newsroom.unl.edu/">News</a>
+                                <ul>
+                                    <li><a href="http://www.huskers.com/">Huskers</a></li>
+                                </ul>
+                            </li>
+                            -->
+                            <li id="qr_resources">
+                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
+                                <ul>
+                                    <li><a href="http://myred.unl.edu/">MyRED</a></li>
+                                    <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
+                                    <li><a href="http://my.unl.edu/">My.UNL</a></li>
+                                    <li><a href="http://library.unl.edu/">Libraries</a></li>
+                                </ul>
+                            </li>
+                            <li id="qr_support">
+                                <a href="http://nufoundation.org/page.aspx?pid=341">Support</a>
+                                <ul>
+                                    <li><a href="http://www.huskeralum.org/">Alumni</a></li>
+                                    <li><a href="http://nufoundation.org/">Foundation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="assert" id="colleges">
                     <header>
                         <h2>Academic Colleges</h2>
                     </header>
@@ -252,7 +257,7 @@
                         </li>
                         <li class="outlier">
                             <h3>
-                                <a href="http://www.unl.edu/finearts/" title="Hixson-Lied College of Fine and Performing Arts"><span>Hixson-Lied College of</span>Fine &amp; Performing Arts</a>
+                                <a href="http://www.unl.edu/finearts/" title="Hixson-Lied College of Fine and Performing Arts"><span>Hixson-Lied College of</span> Fine &amp; Performing Arts</a>
                             </h3>
                             <div class="moreOptions">
                                 <ul>
@@ -275,7 +280,7 @@
                         </li>
                     </ul>
                 </section>
-                <div class="band">
+                <div class="band" id="b1gstories">
                     <div class="stories">
                         <div class="article">
                         	<a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London"><img src="http://newsroom.unl.edu/announce/file19370.jpg" alt="Zach Smith" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London">Smith taking Marshall Scholarship to London</a></h4>
@@ -294,7 +299,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid8 first remainder">
+                <div class="grid8 first remainder" id="affiliates">
                     <h2>Affiliates</h2>
                     <ul> 
                         <li><a href="http://www.huskeralum.org/" title="Alumni">Alumni</a></li> 
