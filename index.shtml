@@ -75,33 +75,31 @@
             <div id="maincontent" role="main">
                 <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
                 <!-- InstanceBeginEditable name="maincontentarea" -->
-                <div class="wdn_carousel">
-                    <div class="currentScroller">
-                        <ul class="scrollerItems">
-                            <li>
-                                <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
-                                    <section class="unltoday sidebar">
-                                        <img src="images/promo_unltoday.jpg" alt="Image holder for now">
-                                        <div class="inner">
-                                            <header>
-                                                <h2>Headlines from UNL Today</h2>
-                                            </header>
-                                            <h3>Baughman, Johnson win national Client Counseling Competition</h3>
-                                            <ul>
-                                                <li>
-                                                    'Little Me Can Live a Big Life' book talk with author Allman
-                                                </li>
-                                                <li>
-                                                    Symposium examines landmark 1962 legislation
-                                                </li>
-                                            </ul>
-                                            <p>These stories and more on UNL Today.</p>
-                                        </div>
-                                    </section>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div id="wdn_Carousel">
+                    <ul class="slides">
+                        <li>
+                            <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
+                                <img src="images/promo_unltoday.jpg" alt="Image holder for now">
+                                <section class="sidebar" id="unltoday">
+                                    <div class="inner">
+                                        <header>
+                                            <h2>Headlines from UNL Today</h2>
+                                        </header>
+                                        <h3>Baughman, Johnson win national Client Counseling Competition</h3>
+                                        <ul>
+                                            <li>
+                                                'Little Me Can Live a Big Life' book talk with author Allman
+                                            </li>
+                                            <li>
+                                                Symposium examines landmark 1962 legislation
+                                            </li>
+                                        </ul>
+                                        <p>These stories and more on UNL Today.</p>
+                                    </div>
+                                </section>
+                            </a>
+                        </li>
+                    </ul>
                     <div class="sliderControl left">
                         <a href="#">Left</a>
                     </div>
