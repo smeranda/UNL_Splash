@@ -85,7 +85,7 @@
                                         <header>
                                             <h2 class="intro">News from UNL Today</h2>
                                         </header>
-                                        <h3>Data shows record-breaking expanse of drought</h3>
+                                        <h3>Scientists first to mimic nature's vital potassium ion channel</h3>
                                         <h4 class="intro">More on UNL Today</h4>
                                         <ul>
                                             <li>
@@ -95,7 +95,6 @@
                                                 Symposium examines landmark 1962 legislation
                                             </li>
                                         </ul>
-                                        <p>These stories and more on UNL Today.</p>
                                     </div>
                                 </section>
                             </a>
@@ -141,7 +140,7 @@
                             </li>
                             -->
                             <li id="qr_resources">
-                                <a href="http://admissions.unl.edu/visit/">Student Resources</a>
+                                <a href="http://www.unl.edu/ucomm/current/">Student Resources</a>
                                 <ul>
                                     <li><a href="http://myred.unl.edu/">MyRED</a></li>
                                     <li><a href="http://events.unl.edu/academic/upcoming/">Academic Calendar</a></li>
@@ -163,7 +162,7 @@
                     <header>
                         <h2>Academic Colleges</h2>
                     </header>
-                    <ul>
+                    <ul id="college_list">
                         <li>
                             <h3>
                                 <a href="http://casnr.unl.edu/" title="College of Agricultural Sciences and Natural Resources">Agricultural Sciences &amp; Natural Resources</a>

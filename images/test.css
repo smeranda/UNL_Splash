@@ -1,0 +1,62 @@
+.collegeARCH {
+  background: url(college_graphics.png) 0px 0px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeAS {
+  background: url(college_graphics.png) -90px 0px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeCASNR {
+  background: url(college_graphics.png) 0px -59px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeCBA {
+  background: url(college_graphics.png) -90px -59px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeEHS {
+  background: url(college_graphics.png) 0px -118px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeENG {
+  background: url(college_graphics.png) -90px -118px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeFPA {
+  background: url(college_graphics.png) -180px 0px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeJMC {
+  background: url(college_graphics.png) -180px -59px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
+
+.collegeLAW {
+  background: url(college_graphics.png) -180px -118px no-repeat;
+  display: block;
+  width: 88px;
+  height: 57px;
+}
