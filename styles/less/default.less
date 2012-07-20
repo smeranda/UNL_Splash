@@ -9,16 +9,101 @@
         margin: 0;
         padding: 0;
     }
+    /* Carousel feature */
+    #wdn_Carousel {
     
+        .slides > li {
+            position: relative;
+            line-height: 0;
+            
+            > a {
+                display: inline-block;
+            }
+        }
+        
+        .sidebar {
+            position: absolute;
+            width: 43%;
+            right: 0;
+            top: 0;
+            color: #fff;
+            padding: 0.3em;
+            height: 100%;
+            .box-sizing(border-box);
+            overflow: hidden;
+                      
+            h2, h3, h4 {
+                text-shadow: 1px 0 1px rgba(0,0,0,0.7);
+                
+                &.intro {
+                    text-transform: uppercase;
+                }
+            }
+            
+            h2.intro {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                line-height: 1;
+                font-size: 60%;
+                color: #eee;
+                margin: 0;
+                padding: 0 0 0.3em;
+            }
+            
+            h3 {
+                color: #fff;
+                line-height: 1em;
+                border-left: 2px solid #b5b5b5;
+                padding: 0 0 0 4px;
+                margin: 0.3em 0;
+                font-size: 1.2em;
+            }
+            
+            h4 {
+                font-size: 60%;
+                color: #eee;
+                margin-top: 1em; 
+                
+                &:before {
+                    content: 'This and ';
+                }
+            }
+            
+            h4 ~ * { // Just show the main headline on small screens
+                display: none;
+            }
+            
+        }
+        
+        #unltoday {
+            background: rgba(0,0,0,0.4);
+        }
+    }
+    
+    
+    /* Quick access top-priority resources */
     #quickResources {
+        .border-radius(3px);
+        background:#eae7d5;
     
         header {
-            display: none;
+        
+            h2 {
+                .text-hidden();
+            }
+            
+            h3 {
+                background:#ac0302 url('../../images/gobig.png') no-repeat 8px 6px;
+                color:#fff;
+                text-indent:-9999em;
+                line-height:18px;
+                padding:12px 0 12px 19px;
+            }
         }
         
         nav {
         
             > ul {
+                margin: 0 0.5em;
             
                 > li {
                     font-size: 0.9em;
@@ -26,10 +111,18 @@
                     text-transform: uppercase;
                     font-weight: 800;
                     padding: 5px 0 0 0;
+                    border-bottom:2px dotted #b1c5ce;
+                    
+                    &:last-child {
+                        border-bottom:none;
+                    }
                     
                     > a {
-                        color: #282401;
                         font-size: 1.3em;
+                    }
+                    
+                    a {
+                        color: #12516e;
                     }
                 }
             
