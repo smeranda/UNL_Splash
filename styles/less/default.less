@@ -195,6 +195,7 @@
             text-transform: uppercase;
         }
         
+        /*
         #college_list {
             
             > li {
@@ -293,6 +294,137 @@
                     
                     ul {
                         margin: 5px 0;
+                    
+                        li {
+                            display: inline-block;
+                            float: left;
+                            margin: 0 1em 1em 0;
+                        }
+                        
+                        span {
+                            display: none;
+                        }
+                        
+                        a {
+                            line-height: 1;
+                            padding: 4px 8px 5px 8px;
+                            border-radius:1em;
+                            color: #2e2d29;
+                            .linear-gradient(#e4e2da, darken(#e4e2da, 10%));
+                            text-shadow: 0 1px 0 lighten(#e4e2da, 10%);
+                            font-weight: bold;
+                            letter-spacing: -0.075em;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        */
+        
+        #college_list {
+            
+            > li {
+                font-size: 0.6em;
+                margin: 3px 0;
+                border: 1px solid #efefef;
+                padding: 5px;
+                float: left;
+                overflow: auto;
+                width: 100%;
+                .box-sizing(border-box);
+                .box-shadow(1px, 1px, 5px, rgba(0,0,0,0.1));
+                
+                &:before {
+                    background: url('../../images/spriteSheet.png') -5px -59px no-repeat;
+                    width: 75px;
+                    height: 48px;
+                    content: ' ';
+                    border-radius:3px;
+                    float: left;
+                }
+                
+                &#cl_arch {
+                    &:before {
+                        background-position: 0px 0px;
+                    }
+                    
+                }
+                
+                &#cl_cas {
+                    &:before {
+                        background-position: -90px 0px;
+                    }
+                    
+                }
+                
+                &#cl_cba {
+                    &:before {
+                        background-position: -90px -59px;
+                    }
+                    
+                }
+                
+                &#cl_cehs {
+                    &:before {
+                        background-position: 0px -118px;
+                    }
+                    
+                }
+                
+                &#cl_eng {
+                    &:before {
+                        background-position: -90px -118px;
+                    }
+                    
+                }
+                
+                &#cl_jmc {
+                    &:before {
+                        background-position: -180px -59px;
+                    }
+                    
+                }
+                
+                &#cl_fpa {
+                    &:before {
+                        background-position: -180px 0px;
+                    }
+                    
+                }
+                
+                &#cl_law {
+                    &:before {
+                        background-position: -180px -118px;
+                    }
+                    
+                }
+                
+                span {
+                    font-weight: normal;
+                    font-size: 50%;
+                    display: block;
+                }
+                
+                h3 {
+                    padding: 0.3em 0.1em 0.3em 85px;
+                    letter-spacing: -0.075em;
+                    margin-left: 80px;
+                    font-size: 1.6em;
+                    background: #e4e2da;
+                    margin: -5px -5px 5px -5px;
+                
+                    a {
+                        display: block;
+                        color: @baseText;
+                    }
+                }
+                
+                .moreOptions {
+                    margin-left: 80px;
+                    
+                    ul {
+                        margin: 10px 0;
                     
                         li {
                             display: inline-block;
