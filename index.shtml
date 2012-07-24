@@ -79,7 +79,7 @@
                     <ul class="slides">
                         <li>
                             <a href="http://www.unl.edu/ucomm/unltoday/" title="Read more on UNL Today">
-                                <img src="images/promo_unltoday.jpg" alt="Image holder for now">
+                                <img src="images/promo_unltoday_small.jpg" alt="Image holder for now" width="960" height="310">
                                 <section class="sidebar" id="unltoday">
                                     <div class="inner">
                                         <header>
@@ -163,7 +163,7 @@
                         <h2>Academic Colleges</h2>
                     </header>
                     <ul id="college_list">
-                        <li>
+                        <li id="cl_casnr">
                             <h3>
                                 <a href="http://casnr.unl.edu/" title="College of Agricultural Sciences and Natural Resources">Agricultural Sciences &amp; Natural Resources</a>
                             </h3>
@@ -175,7 +175,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_arch">
                             <h3>
                                 <a href="http://archweb.unl.edu/" title="College of Architecture">Architecture</a>
                             </h3>
@@ -187,7 +187,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_cas">
                             <h3>
                                 <a href="http://cas.unl.edu/" title="College of Arts and Sciences">Arts &amp; Sciences</a>
                             </h3>
@@ -199,7 +199,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_cba">
                             <h3>
                                 <a href="http://cba.unl.edu/" title="College of Business Administration">Business Administration</a>
                             </h3>
@@ -211,7 +211,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_cehs">
                             <h3>
                                 <a href="http://cehs.unl.edu/" title="College of Education &amp; Human Sciences">Education &amp; Human Sciences</a>
                             </h3>
@@ -223,7 +223,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_eng">
                             <h3>
                                 <a href="http://engineering.unl.edu/" title="College of Engineering">Engineering</a>
                             </h3>
@@ -235,7 +235,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_jmc">
                             <h3>
                                 <a href="http://journalism.unl.edu/" title="College of Journalism and Mass Communications">Journalism &amp; Mass Communications</a>
                             </h3>
@@ -247,7 +247,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="outlier">
+                        <li class="outlier" id="cl_fpa">
                             <h3>
                                 <a href="http://www.unl.edu/finearts/" title="Hixson-Lied College of Fine and Performing Arts"><span>Hixson-Lied College of</span> Fine &amp; Performing Arts</a>
                             </h3>
@@ -259,7 +259,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li id="cl_law">
                             <h3>
                                 <a href="http://law.unl.edu/" title="Nebraska College of Law">Law</a>
                             </h3>
@@ -273,21 +273,31 @@
                     </ul>
                 </section>
                 <div class="band" id="b1gstories">
-                    <div class="stories">
-                        <div class="article">
-                        	<a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London"><img src="http://newsroom.unl.edu/announce/file19370.jpg" alt="Zach Smith" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London">Smith taking Marshall Scholarship to London</a></h4>
-                        
-                        	<p>May grad will pursue master's degrees in Middle East politics and Islamic societies and culture</p>
-                        </div>
-                        <div class="article">
-                        	<a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt"><img src="http://newsroom.unl.edu/announce/file19339.jpg" alt="Steven Kaiser (Photo by Cynthia M. Kaiser)" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt">Kaiser, &rsquo;10, helps develop low-sodium salt</a></h4>
-                        
-                        	<p>Steven Kaiser develops flavors and seasonings for ConAgra Foods</p>
-                        </div>
-                        <div class="article">
-                        	<a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation"><img src="http://newsroom.unl.edu/announce/file19340.jpg" alt="Susan Swearer" /></a>	<h4><a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation">Swearer helps launch Lady Gaga's Born This Way Foundation</a></h4>
-                        
-                        	<p>Expert's bullying research filling gaps between research, practice</p>
+                    <span class="fade first"></span>
+                    <div class="scroller">
+                        <div class="stories">
+                            <article class="article">
+                            	<a href="http://newsroom.unl.edu/announce/stories/6736" title="Read more about Smith taking Marshall Scholarship to London">
+                            	    <img src="http://newsroom.unl.edu/announce/file19370.jpg" alt="Zach Smith" />	
+                                	<h4>Smith taking Marshall Scholarship to London</h4>
+                                	<p>May grad will pursue master's degrees in Middle East politics and Islamic societies and culture</p>
+                                </a>
+                            </article>
+                            <article class="article">
+                            	<a href="http://newsroom.unl.edu/announce/stories/6737" title="Read more about Kaiser, &rsquo;10, helps develop low-sodium salt">
+                            	    <img src="http://newsroom.unl.edu/announce/file19339.jpg" alt="Steven Kaiser (Photo by Cynthia M. Kaiser)" />	
+                            	    <h4>Kaiser, &rsquo;10, helps develop low-sodium salt</h4>
+                                    <p>Steven Kaiser develops flavors and seasonings for ConAgra Foods</p>
+                            	</a>
+                            </article>
+                            <article class="article">
+                            	<a href="http://newsroom.unl.edu/announce/stories/6738" title="Read more about Swearer helps launch Lady Gaga's Born This Way Foundation">
+                                	<img src="http://newsroom.unl.edu/announce/file19340.jpg" alt="Susan Swearer" />
+                                	<h4>Swearer helps launch Lady Gaga's Born This Way Foundation</h4>
+                                    <p>Expert's bullying research filling gaps between research, practice</p>
+                                </a>
+                            </article>
+                            <span class="fade last"></span>
                         </div>
                     </div>
                 </div>
@@ -323,7 +333,7 @@
 					<a href="http://marketplace.unl.edu/dairystore/?utm_campaign=marketplace&amp;utm_medium=unlSplash&amp;utm_source=internal&amp;utm_content=&amp;utm_term=dairystore">
     					<div class="mp_dairy">
         					<span class="headline">Order online. Anytime.</span>
-        					<img class="logo" src="/ucomm/splash/images/logo_ds.png" alt="Dairy Store Logo" />
+        					<img class="logo" src="images/logo_ds.png" alt="Dairy Store Logo" />
 				        </div>
     				    <div class="mp_footer">
     				        <span>UNL Marketplace</span>

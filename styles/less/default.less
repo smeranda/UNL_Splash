@@ -1,6 +1,11 @@
 // Bring in the mixins from the UNL template
 @import "template_less/_mixins/all.less";
 
+.sprite(@x, @y) {
+    background: url('../../images/spriteSheet.png') @x @y no-repeat;
+    display: block;
+}
+    
 // Base CSS here
 #maincontent {
     // general uls
@@ -16,12 +21,19 @@
         
         > a {
             display: inline-block;
+            width: 100%;
+            
+            > img {
+                width: 100%;
+                height: auto;
+                max-width: 100% !important;
+            }
         }
     }
     
     .sidebar {
         position: absolute;
-        width: 43%;
+        width: 46%;
         right: 0;
         top: 0;
         color: #fff;
@@ -29,6 +41,7 @@
         height: 100%;
         .box-sizing(border-box);
         overflow: hidden;
+        font-size: 75%;
                   
         h2, h3, h4 {
             text-shadow: 1px 0 1px rgba(0,0,0,0.7);
@@ -41,24 +54,24 @@
         h2.intro {
             border-bottom: 1px solid rgba(255,255,255,0.5);
             line-height: 1;
-            font-size: 60%;
-            color: #eee;
+            font-size: 1em;
+            color: #bbb;
             margin: 0;
-            padding: 0 0 0.3em;
+            padding: 0.1em 0 0.1em;
         }
         
         h3 {
             color: #fff;
-            line-height: 1em;
-            border-left: 2px solid #b5b5b5;
+            line-height: 1.1em;
+            border-left: 2px solid rgba(255,255,255,0.3);
             padding: 0 0 0 4px;
             margin: 0.3em 0;
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
         
         h4 {
-            font-size: 60%;
-            color: #eee;
+            font-size: 1em;
+            color: #bbb;
             margin-top: 1em; 
             
             &:before {
@@ -174,7 +187,7 @@
             }
         }
     }
-    
+    //Academic College list
     #colleges {
         
         h2 {
@@ -193,13 +206,68 @@
                 clear: left;
                 overflow: auto;
                 &:before {
-                    background: url('../../images/college_graphics.png') -5px -59px no-repeat;
-                    //background-size: 100% 100%;
+                    background: url('../../images/spriteSheet.png') -5px -59px no-repeat;
                     width: 75px;
                     height: 48px;
                     content: ' ';
                     border-radius:3px;
                     float: left;
+                }
+                
+                &#cl_arch {
+                    &:before {
+                        background-position: 0px 0px;
+                    }
+                    
+                }
+                
+                &#cl_cas {
+                    &:before {
+                        background-position: -90px 0px;
+                    }
+                    
+                }
+                
+                &#cl_cba {
+                    &:before {
+                        background-position: -90px -59px;
+                    }
+                    
+                }
+                
+                &#cl_cehs {
+                    &:before {
+                        background-position: 0px -118px;
+                    }
+                    
+                }
+                
+                &#cl_eng {
+                    &:before {
+                        background-position: -90px -118px;
+                    }
+                    
+                }
+                
+                &#cl_jmc {
+                    &:before {
+                        background-position: -180px -59px;
+                    }
+                    
+                }
+                
+                &#cl_fpa {
+                    &:before {
+                        background-position: -180px 0px;
+                    }
+                    
+                }
+                
+                &#cl_law {
+                    &:before {
+                        background-position: -180px -118px;
+                    }
+                    
                 }
                 
                 span {
@@ -240,8 +308,9 @@
                             line-height: 1;
                             padding: 4px 8px 5px 8px;
                             border-radius:1em;
-                            color: #fff;
-                            .linear-gradient(#918e7f, #7e7b6c);
+                            color: #2e2d29;
+                            .linear-gradient(#e4e2da, darken(#e4e2da, 10%));
+                            text-shadow: 0 1px 0 lighten(#e4e2da, 10%);
                             font-weight: bold;
                             letter-spacing: -0.075em;
                             
@@ -251,6 +320,219 @@
             }
         }
     }
+    // Wrapper for the B1G Stories
+    .band {
+        .box-sizing(border-box);
+        display: inline-block;
+        background:#edebe1;
+        border-width:1px 0;
+        border-color:#d9d4b8;
+        border-style:solid;
+        margin-bottom:20px;
+        padding: 10px;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        
+        .scroller {
+            overflow-x: scroll;
+            overflow-y: auto; 
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .fade {
+            position: absolute;
+            top: 0;
+            background: black;
+            width: 20px;
+            height: 100%;
+            content: '';
+            &.first {
+                left: 0;
+                background: transparent;
+                background: -moz-linear-gradient(left, rgba(237,235,225,1) 0%, rgba(237,235,225,0) 90%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(237,235,225,1)), color-stop(90%,rgba(237,235,225,0))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, rgba(237,235,225,1) 0%,rgba(237,235,225,0) 90%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, rgba(237,235,225,1) 0%,rgba(237,235,225,0) 90%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, rgba(237,235,225,1) 0%,rgba(237,235,225,0) 90%); /* IE10+ */
+                background: linear-gradient(to right, rgba(237,235,225,1) 0%,rgba(237,235,225,0) 90%); /* W3C */
+            }
+                
+            &.last {
+                right: 0;
+                background: transparent;
+                background: -moz-linear-gradient(left, rgba(237,235,225,0) 0%, rgba(237,235,225,1) 90%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(237,235,225,0)), color-stop(90%,rgba(237,235,225,1))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, rgba(237,235,225,0) 0%,rgba(237,235,225,1) 90%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, rgba(237,235,225,0) 0%,rgba(237,235,225,1) 90%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, rgba(237,235,225,0) 0%,rgba(237,235,225,1) 90%); /* IE10+ */
+                background: linear-gradient(to right, rgba(237,235,225,0) 0%,rgba(237,235,225,1) 90%); /* W3C */
+            }
+        }
+    }
+    // B1G stories
+    .stories {
+        width: 800px;
+        
+        .article { //individual story wrapper
+            .box-sizing(border-box);
+            .border-radius(3px);
+            background: #fff;
+            border: 4px solid #d2ceb4;
+            padding: 10px;
+            text-align: center;
+            float: left;
+            margin-right: 20px;
+            font-size: 80%;
+            min-height: 280px;
+            max-height: 280px;
+            width: 240px;
+            
+            a {
+                text-align: center;
+            }
+            
+            h4 {
+                font-size:1.1em;
+                font-weight:bold;
+                line-height:1.1em;
+                margin-top:7px;
+                margin-bottom:7px;
+                color:#12516e;
+                text-align: left;
+            }
+            
+            p {
+                color: @baseText;
+                font-size: 1em;
+                line-height: 1.2em;
+                text-align: left;
+            }
+        }
+    }
+    //UNL affiliates
+    .remainder {
+    
+        h2 {
+            text-transform:uppercase;
+            font-weight:bold;
+            text-shadow:-1px 0 -1px #eee;
+            border-bottom:1px solid #e2dfd1;
+            line-height:1em;
+            padding:0;
+        }
+        ul {
+            list-style:none;    
+            padding:10px 0;
+        
+            li {
+                display:inline-block;
+                margin-bottom:10px;
+                margin-right:13px;
+                font-size:10px;
+                a {
+                    color:#000;
+                    border-bottom:1px solid #ccc;
+                    &:hover {
+                        border-bottom:1px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+    // Social Link Outposts
+    #outposts {
+        text-align:center;
+    
+        ul {
+            margin:0;
+            padding:0;
+            list-style:none;
+            display:inline-block;
+        }
+        
+        li {
+            display:inline;
+            float:left;
+            margin-right:5px;
+            
+            a {
+                display:block;
+                float:left;
+                text-indent:-99999px;
+                width:38px;
+                height:38px;
+                background:url('../../images/outpostSprite.gif') no-repeat;
+                background-position:0 -41px;
+                -webkit-transition:opacity ease 0.2s;
+                -moz-transition:opacity ease 0.2s;
+                -o-transition:opacity ease 0.2s;
+                -ms-transition:opacity ease 0.2s;
+                transition:opacity ease 0.2s;
+                opacity:0.6;
+                &:hover {
+                    opacity:1;
+                }
+            }
+            &.facebook a {
+                background-position: -45px -41px;
+            }
+            &.twitter a {
+                background-position: -88px -41px;
+            }
+            &.flickr a {
+                background-position: -132px -41px;
+            }
+            &.youtube a {
+                background-position: -176px -41px;
+            }
+            &.foursquare a {
+                background-position: -265px -41px;
+            }
+        }
+    }
+    // Advertisement
+    #unl_ad {
+ 	    position: relative;
+ 	    font-size: 80%;
+ 	    margin-top: 1em;
+	}
+	.mp_dairy {
+    	border: 1px solid #;
+    	border-right: 0px;
+    	border-left: 0px;
+    	background: #edebe1;
+    	padding: 1em;
+	    
+	    .headline {
+        	font-size: 1.4em;
+        	font-weight: bold;
+        	font-family: helvetica;
+        	color: #635e41;
+        	text-shadow: 1px 1px 0 #fff;
+    	}
+    }
+	.mp_footer {
+    	background: #d9d4b8;
+    	width: 100%;
+    	.box-sizing(border-box);
+    	border-top: 1px solid #c0bb9c;
+    	border-bottom: 1px solid #c0bb9c;
+    	padding:  0 1em;
+	    
+	    span {
+        	text-transform: uppercase;
+        	color: #635e41 !important;
+        	font-weight: bold;
+    	}
+    }
+	.logo {
+    	position: absolute;
+    	z-index: 2;
+    	right: 1em;
+    	bottom: 0;
+    	max-width: 20%;
+	}
 }
 
 // Start of the media queries
@@ -263,16 +545,7 @@
         .sidebar {
             padding: 0.6em;
             
-            h2.intro {
-                font-size: 100%;
-            }
-            h3 {
-                line-height: 1.2em;
-                font-size: 1.4em;
-            }
-            
             h4 {
-                font-size: 100%;
                 
                 &:before {
                     content: '';
@@ -283,22 +556,74 @@
                 
                 ~ ul {
                     display: block;
+                    padding-left: 0.5em;
+                    
+                    li {
+                        line-height: 1.4;
+                        font-size: 1em;
+                        border-left: 1px solid rgba(255,255,255,0.3);
+                        padding: 0 0 0 3px;
+                        margin-bottom: 0.75em;
+                    }
                 }
             }
-            
-            
         }
     }
 }
 @media (min-width: 600px) {
-
+    #maincontent {
+        
+        .sidebar {
+            font-size: 85%;
+            width: 40%
+        }
+        
+        #quickResources, #colleges {
+            width: 48%;
+            margin-right: 4%;
+            float: left;
+        }
+        
+        #colleges {
+            margin-right: 0;
+            
+            #college_list {
+            
+                > li {
+                
+                    &:before {
+                        display: none;
+                    }
+                    
+                    h3, .moreOptions {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 @media (min-width: 768px) {
-
+    #maincontent {
+        
+        .sidebar {
+            font-size: 95%;
+        }
+    }
 }
 @media (min-width: 960px) {
-
+    #maincontent {
+        
+        .sidebar {
+            font-size: 100%;
+        }
+    }
 }
 @media (min-width: 1040px) {
-
+    #maincontent {
+        
+        .sidebar {
+            font-size: 110%;
+        }
+    }
 }
